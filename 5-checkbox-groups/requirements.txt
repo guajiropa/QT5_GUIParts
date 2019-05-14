@@ -1,0 +1,4 @@
+pip==10.0.1
+PyQt5==5.12.1
+PyQt5-sip==4.19.15
+setuptools==39.0.1

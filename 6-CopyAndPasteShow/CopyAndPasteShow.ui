@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dlgCopyAndPasteShow</class>
+ <widget class="QDialog" name="dlgCopyAndPasteShow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>369</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLineEdit" name="txtLineEditSource">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>78</y>
+     <width>461</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtLineEditPasted">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>120</y>
+     <width>461</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cmdCopy">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>220</y>
+     <width>461</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Copy</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cmdPaste">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>260</y>
+     <width>462</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Paste</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>cmdCopy</sender>
+   <signal>pressed()</signal>
+   <receiver>txtLineEditSource</receiver>
+   <slot>selectAll()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>244</x>
+     <y>234</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>255</x>
+     <y>88</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cmdCopy</sender>
+   <signal>released()</signal>
+   <receiver>txtLineEditSource</receiver>
+   <slot>cut()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>152</x>
+     <y>228</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>155</x>
+     <y>84</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cmdPaste</sender>
+   <signal>released()</signal>
+   <receiver>txtLineEditPasted</receiver>
+   <slot>paste()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>285</x>
+     <y>265</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>292</x>
+     <y>132</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

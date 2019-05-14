@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "1-welcome-message", "1-welcome-message\1-welcome-message.pyproj", "{9755D089-31CF-4773-A2FA-95738C3AD8E2}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "2-radio-buttons", "2-radio-buttons\2-radio-buttons.pyproj", "{185E04BB-EFF0-4907-AC87-F815229F0DFA}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "3-grouped-radio-buttons", "3-grouped-radio-buttons\3-grouped-radio-buttons.pyproj", "{86B7D8D4-FE4D-4E62-9D63-CA85D697DA40}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "4-checkboxes", "4-checkboxes\4-checkboxes.pyproj", "{B3C8F416-9382-4C26-A1AF-9B5183A87EFD}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "5-checkbox-groups", "5-checkbox-groups\5-checkbox-groups.pyproj", "{7D7050AB-C02A-4DB7-8D54-B8C71E80ACC5}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "6-CopyAndPasteShow", "6-CopyAndPasteShow\6-CopyAndPasteShow.pyproj", "{DE7048FD-34B8-41F8-B5B5-C0113FDF4165}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "7-SimpleCalculator", "7-ASimpleCalculator\7-SimpleCalculator.pyproj", "{583566DF-E5F5-41BA-B8BF-77F7B810E06D}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "8-SpinnerBox", "8-SpinnerBox\8-SpinnerBox.pyproj", "{22848368-2341-4A39-9662-0C8B42855EC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9755D089-31CF-4773-A2FA-95738C3AD8E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9755D089-31CF-4773-A2FA-95738C3AD8E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{185E04BB-EFF0-4907-AC87-F815229F0DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{185E04BB-EFF0-4907-AC87-F815229F0DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86B7D8D4-FE4D-4E62-9D63-CA85D697DA40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86B7D8D4-FE4D-4E62-9D63-CA85D697DA40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3C8F416-9382-4C26-A1AF-9B5183A87EFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3C8F416-9382-4C26-A1AF-9B5183A87EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D7050AB-C02A-4DB7-8D54-B8C71E80ACC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D7050AB-C02A-4DB7-8D54-B8C71E80ACC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE7048FD-34B8-41F8-B5B5-C0113FDF4165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE7048FD-34B8-41F8-B5B5-C0113FDF4165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{583566DF-E5F5-41BA-B8BF-77F7B810E06D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{583566DF-E5F5-41BA-B8BF-77F7B810E06D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22848368-2341-4A39-9662-0C8B42855EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22848368-2341-4A39-9662-0C8B42855EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB3526DC-42B1-49F2-BD6B-7136C0138311}
+	EndGlobalSection
+EndGlobal
