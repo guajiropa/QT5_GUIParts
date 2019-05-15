@@ -1,6 +1,6 @@
 """
 AUTHOR      : Robert James Patterson
-DATE        : 05/14/19
+DATE        : 05/15/19
 SYNOPSIS    : Learning to use QT5 with Python : Lesson 8 - SpinnerBox 
 """
 from PyQt5.QtWidgets import QDialog
@@ -29,7 +29,7 @@ class SpinnerBox(QDialog):
             bookPrice = 0
             
         totalBookAmount = self.ui.spinBookQty.value() * bookPrice
-        self.ui.txtBookTotal.setText(str(round(totalBookAmount)))
+        self.ui.txtBookTotal.setText(str(round(totalBookAmount, 2)))
 
     def sugarResult(self):
         
@@ -43,4 +43,12 @@ class SpinnerBox(QDialog):
 
         totalSugarAmount = self.ui.dblspinSugarQty.value() * sugarPrice
         self.ui.txtSugarTotal.setText(str(round(totalSugarAmount, 2)))
+        
+        totalBookAmount = float(self.ui.txtBookTotal.text())
+        totalAmount = totalBookAmount + totalSugarAmount
+        self.ui.lblTotal.setText(str(round(totalAmount, 2)))
+
+
+
+        
 

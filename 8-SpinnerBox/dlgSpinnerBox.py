@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 AUTHOR      : Robert James Patterson
-DATE        : 05/14/19
+DATE        : 05/15/19
 SYNOPSIS    : Learning to use QT5 with Python : Lesson 8 - SpinnerBox 
 """
 # Form implementation generated from reading ui file 'dlgSpinner.ui'
