@@ -19,14 +19,28 @@ class SpinnerBox(QDialog):
         self.show()
 
     def bookResult(self):
+        
         if len(self.ui.txtBookPrice.text()) != 0:
-            bookPrice = int(self.ui.txtBookPrice.text())
+            try:
+                bookPrice = float(self.ui.txtBookPrice.text())
+            except:
+                self.ui.txtBookPrice.setText("Please enter numeric values only!")
         else:
             bookPrice = 0
             
         totalBookAmount = self.ui.spinBookQty.value() * bookPrice
-        self.ui.txtBookTotal.setText(str(totalBookAmount))
+        self.ui.txtBookTotal.setText(str(round(totalBookAmount)))
 
     def sugarResult(self):
-        pass
+        
+        if len(self.ui.txtSugarPrice.text()) != 0:
+            try:
+                sugarPrice = float(self.ui.txtSugarPrice.text())
+            except:
+                self.ui.txtSugarPrice.setText("Please enter numeric values only!")
+        else:
+            sugarPrice = 0
+
+        totalSugarAmount = self.ui.dblspinSugarQty.value() * sugarPrice
+        self.ui.txtSugarTotal.setText(str(round(totalSugarAmount, 2)))
 
