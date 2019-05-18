@@ -23,6 +23,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="CalcForm.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="dlgSimpleCalc.py" />
     <Compile Include="main.pyw" />
   </ItemGroup>
