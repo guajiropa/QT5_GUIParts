@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
-
+"""
+AUTHOR      : Robert James Patterson
+DATE        : 05/18/19
+SYNOPSIS    : Learning to use QT5 with Python
+"""
 # Form implementation generated from reading ui file 'dlgSimpleCalc.ui'
 #
 # Created by: PyQt5 UI code generator 5.12.1
@@ -13,10 +17,7 @@ class Ui_Dialog(object):
     def setupUi(self, Dialog):
         Dialog.setObjectName("Dialog")
         Dialog.resize(562, 461)
-        Dialog.setStyleSheet("background-color: rgb(252, 160, 255);\n"
-"\n"
-"\n"
-"")
+        Dialog.setStyleSheet("background-color: rgb(252, 160, 255);")
         self.txtOperandOne = QtWidgets.QLineEdit(Dialog)
         self.txtOperandOne.setGeometry(QtCore.QRect(160, 110, 391, 31))
         font = QtGui.QFont()
@@ -64,7 +65,7 @@ class Ui_Dialog(object):
         font.setWeight(75)
         self.cmdAdd.setFont(font)
         self.cmdAdd.setStyleSheet("background-color: rgb(85, 0, 0);\n"
-"color: white;")
+                                    "color: white;")
         self.cmdAdd.setObjectName("cmdAdd")
         self.cmdDivide = QtWidgets.QPushButton(Dialog)
         self.cmdDivide.setGeometry(QtCore.QRect(340, 240, 75, 71))
@@ -75,7 +76,7 @@ class Ui_Dialog(object):
         font.setWeight(75)
         self.cmdDivide.setFont(font)
         self.cmdDivide.setStyleSheet("background-color: rgb(85, 0, 0);\n"
-"color: white;")
+                                        "color: white;")
         self.cmdDivide.setObjectName("cmdDivide")
         self.cmdMultiply = QtWidgets.QPushButton(Dialog)
         self.cmdMultiply.setGeometry(QtCore.QRect(240, 240, 75, 71))
@@ -86,7 +87,7 @@ class Ui_Dialog(object):
         font.setWeight(75)
         self.cmdMultiply.setFont(font)
         self.cmdMultiply.setStyleSheet("background-color: rgb(85, 0, 0);\n"
-"color: white;")
+                                        "color: white;")
         self.cmdMultiply.setObjectName("cmdMultiply")
         self.cmdSubtract = QtWidgets.QPushButton(Dialog)
         self.cmdSubtract.setGeometry(QtCore.QRect(140, 240, 75, 71))
@@ -97,7 +98,7 @@ class Ui_Dialog(object):
         font.setWeight(75)
         self.cmdSubtract.setFont(font)
         self.cmdSubtract.setStyleSheet("background-color: rgb(85, 0, 0);\n"
-"color: white;")
+                                        "color: white;")
         self.cmdSubtract.setObjectName("cmdSubtract")
         self.label_3 = QtWidgets.QLabel(Dialog)
         self.label_3.setGeometry(QtCore.QRect(20, 30, 521, 41))
@@ -127,7 +128,7 @@ class Ui_Dialog(object):
         font.setWeight(75)
         self.cmdClear.setFont(font)
         self.cmdClear.setStyleSheet("background-color: rgb(85, 0, 0);\n"
-"color: white;")
+                                        "color: white;")
         self.cmdClear.setObjectName("cmdClear")
 
         self.retranslateUi(Dialog)
@@ -145,5 +146,3 @@ class Ui_Dialog(object):
         self.label_3.setText(_translate("Dialog", "A Simple Calculator"))
         self.lblResult.setText(_translate("Dialog", "Your Results"))
         self.cmdClear.setText(_translate("Dialog", "C"))
-
-
